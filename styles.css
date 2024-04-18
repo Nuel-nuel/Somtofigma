@@ -165,3 +165,31 @@ main{
     display: flex;
     width: 50%;
 }
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }
+.rect{
+    position: absolute;
+    width: 219px;
+    height: 80px;
+    border-radius: 20px;
+    /* padding: 10px 20px; */
+    background-color: var(--asidecolor);
+    color: white;
+    margin-top: 18.5rem;
+    margin-left: 14rem;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+.rect li{
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
